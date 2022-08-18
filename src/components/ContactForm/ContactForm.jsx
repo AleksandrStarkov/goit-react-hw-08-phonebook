@@ -1,7 +1,7 @@
 // import PropTypes from 'prop-types';
 import { useState } from 'react';
 import s from './ContactForm.module.css';
-import { addContact } from '../../Redux/Contacts/contacts-actions';
+import { addContact } from '../../redux/contacts/contacts-actions';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import Notiflix from 'notiflix';

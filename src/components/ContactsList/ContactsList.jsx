@@ -1,6 +1,6 @@
 // import PropTypes from 'prop-types';
 import s from './ContactsList.module.css';
-import { removeContact } from '../../Redux/Contacts/contacts-actions';
+import { removeContact } from '../../redux/contacts/contacts-actions';
 import { useDispatch, useSelector } from 'react-redux';
 
 export default function ContactsList() {
