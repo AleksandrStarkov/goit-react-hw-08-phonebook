@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import s from './Filter.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { filterContact } from '../../redux/contacts/contacts-actions';
@@ -29,8 +28,3 @@ export default function Filter() {
     </label>
   );
 }
-
-// Filter.propTypes = {
-//   filter: PropTypes.string.isRequired,
-//   handleChange: PropTypes.func.isRequired,
-// };

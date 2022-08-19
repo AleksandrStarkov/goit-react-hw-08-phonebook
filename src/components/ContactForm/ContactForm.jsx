@@ -1,7 +1,6 @@
-// import PropTypes from 'prop-types';
 import { useState } from 'react';
 import s from './ContactForm.module.css';
-import { addContact } from '../../redux/contacts/contacts-actions';
+import { addContact } from '../../redux/contacts/contacts-operation';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import Notiflix from 'notiflix';
@@ -42,7 +41,6 @@ const ContactForm = () => {
         contact => contact.name.toLowerCase() === name.toLowerCase(),
       )
     )
-      // return alert(`${name} is already in contacts.`);
       return Notiflix.Notify.failure(`${name} is already in contacts.`);
 
     dispatch(addContact({ name: name, number: number }));
@@ -89,7 +87,5 @@ const ContactForm = () => {
     </form>
   );
 };
-
-// ContactForm.propTypes = { addContact: PropTypes.func.isRequired };
 
 export default ContactForm;
