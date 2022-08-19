@@ -7,6 +7,5 @@ export const addContact = createAction('contacts/add', ({ name, number }) => ({
     number,
   },
 }));
-
 export const removeContact = createAction('contacts/remove');
 export const filterContact = createAction('contacts/filter');
