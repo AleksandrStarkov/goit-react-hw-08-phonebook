@@ -18,7 +18,6 @@ const contactsPersistConfig = {
   storage,
   whitelist: ['items'],
 };
-
 const persistedContactsReducer = persistReducer(
   contactsPersistConfig,
   contactsReducers,
