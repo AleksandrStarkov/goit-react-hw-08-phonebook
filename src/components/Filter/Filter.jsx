@@ -1,6 +1,6 @@
 import s from './Filter.module.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { filterContact } from '../../redux/contacts/contacts-actions';
+import { filterContact } from '../../redux/contacts/contactsActions';
 
 export default function Filter() {
   const filter = useSelector(state => state.contacts.filter);
@@ -14,7 +14,7 @@ export default function Filter() {
 
   return (
     <label className={s.flabel}>
-      Find contacts by name
+      <h2> Find contacts by name</h2>
       <input
         className={s.finput}
         type="text"

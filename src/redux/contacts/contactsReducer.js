@@ -1,6 +1,6 @@
 import { createReducer, combineReducers } from '@reduxjs/toolkit';
-import { addContact, removeContact, getContacts } from './contacts-operation';
-import { filterContact } from './contacts-actions';
+import { addContact, removeContact, getContacts } from './contactsOperation';
+import { filterContact } from './contactsActions';
 
 const itemsReduser = createReducer([], {
   [getContacts.fulfilled]: (_, { payload }) => payload,
@@ -41,9 +41,10 @@ const errorReduser = createReducer(null, {
   [removeContact.pending]: () => null,
 });
 
-export const contactsReducers = combineReducers({
+const contactsReducers = combineReducers({
   items: itemsReduser,
   filter: filterReduser,
   isLoading: isLoadingReduser,
   error: errorReduser,
 });
+export default contactsReducers;

@@ -1,5 +1,5 @@
 .container {
-  width: 500px;
+  width: 800px;
   margin: 0 auto;
   margin-top: 10px;
   background: linear-gradient(
@@ -16,7 +16,7 @@
 
 .container h1 {
   margin: 0;
-  font-size: 50px;
+  font-size: 80px;
   margin-bottom: 15px;
   text-align: center;
 
@@ -24,6 +24,19 @@
     0 0 20px #e1ff00, 0 0 30px #fb00da, 0 0 40px #fc00ef, 0 0 55px #fe00f5,
     0 0 75px #eaff00;
   color: #ffffff;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: -1.5s;
+}
+
+@keyframes example {
+  from {
+    top: 500px;
+  }
+  to {
+    top: 0;
+  }
 }
 
 .container h2 {

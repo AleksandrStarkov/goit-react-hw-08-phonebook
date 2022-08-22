@@ -13,4 +13,6 @@
   border: 1px solid red;
   outline-color: #d4f903;
   margin-top: 20px;
+  margin: 0 auto;
+  width: 350px;
 }

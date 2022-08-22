@@ -1,0 +1,36 @@
+.userMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userMenu p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #a7dd3c;
+  text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77, 0, 38, 0.5),
+    3px 0 3px #ff002b, 5px 0 3px #800015, 6px 2px 3px rgba(77, 0, 13, 0.5),
+    6px 0 9px #ff5500, 8px 0 9px #802a00, 9px 2px 9px rgba(77, 25, 0, 0.5),
+    9px 0 18px #ffd500, 11px 0 18px #806a00, 12px 2px 18px rgba(77, 66, 0, 0.5),
+    12px 0 30px #d4ff00, 14px 0 30px #6a8000, 15px 2px 30px rgba(64, 77, 0, 0.5),
+    15px 0 45px #80ff00, 17px 0 45px #408000, 17px 2px 45px rgba(38, 77, 0, 0.5);
+}
+.userMenu button {
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+  text-decoration: none;
+  background-color: transparent;
+  border: 5px double transparent;
+  border-radius: 0px 40px 0px 40px;
+}
+.userMenu button:hover {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  text-align: center;
+  border: 5px double #49ff18;
+  border-radius: 0px 40px 0px 40px;
+}

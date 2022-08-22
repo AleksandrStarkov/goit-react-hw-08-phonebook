@@ -1,5 +1,5 @@
 import s from './ContactsList.module.css';
-import { removeContact } from '../../redux/contacts/contacts-operation';
+import { removeContact } from '../../redux/contacts/contactsOperation';
 import { useDispatch, useSelector } from 'react-redux';
 
 export default function ContactsList() {
@@ -20,7 +20,7 @@ export default function ContactsList() {
       {filteredContacts.map(contact => (
         <li className={s.item} key={contact.id}>
           <p className={s.name}>
-            {contact.name}: {contact.phone}
+            {contact.name}: {contact.number}
           </p>
           <button
             type="button"

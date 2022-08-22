@@ -1,0 +1,53 @@
+.navForm {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+}
+.label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input {
+  width: 250px;
+  margin-left: 25px;
+  font-size: 20px;
+  padding: 5px 15px;
+  border-radius: 12px;
+  border: none;
+  outline-color: rgb(38, 255, 0);
+  border: 1px solid red;
+}
+.navForm__btn {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+    #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px,
+    #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  border: 5px double transparent;
+  border-radius: 0px 40px 0px 40px;
+}
+.navForm__btn:hover {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  text-align: center;
+  border: 5px double #49ff18;
+  border-radius: 0px 40px 0px 40px;
+}

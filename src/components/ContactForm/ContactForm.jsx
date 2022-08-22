@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import s from './ContactForm.module.css';
-import { addContact } from '../../redux/contacts/contacts-operation';
+import { addContact } from '../../redux/contacts/contactsOperation';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import Notiflix from 'notiflix';
